@@ -4,17 +4,19 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-//import android.widget.EditText;
+import android.widget.EditText;
 
 
 //för knappen//
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    //EditText search;
+
+    EditText name, lname, mail, date ;
     Button FirstButton;
 
     @Override
@@ -23,10 +25,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        //search = (EditText) findViewById(R.id.myNewEdt);
+        name = (EditText) findViewById(R.id.edit_text_name);
+        lname = (EditText) findViewById(R.id.edit_text_last_name);
+        mail = (EditText) findViewById(R.id.edit_text_email);
+        date = (EditText) findViewById(R.id.edit_text_date);
 
-        setContentView(R.layout.activity_main);
-        FirstButton = (Button) findViewById(R.id.button1);//get id of button 1
+
+        FirstButton = (Button) findViewById(R.id.button1);
 
 
         FirstButton.setOnClickListener(new View.OnClickListener() {
