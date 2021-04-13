@@ -88,6 +88,6 @@ else {
 I detta fall ligger TextView och fyra stycken EditView innanför samma LinearLayout för att på ett enklare sätt style dem så de blir på samma sätt.
 
 Bilder:
-![] (info.png)
-![] (svar.png)
+![](info.png)
+![](svar.png)
 
