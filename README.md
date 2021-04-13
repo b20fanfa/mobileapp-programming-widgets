@@ -93,3 +93,4 @@ I detta fall ligger TextView och fyra stycken EditView innanför samma LinearLay
 Bilder:
 ![] (info.png)
 ![] (svar.png)
+
