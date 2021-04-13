@@ -3,7 +3,6 @@
 
 Assignment 3 - Widgets
 
-
 Först lades en <LinearLayout> in i Activity_main.XML. från <androidx.constraintlayout.widget.ConstraintLayout xmlns:android=”http://schemas.android.com/apk/res/android”.
 Detta gjordes eftersom LinearLayout den är en enkel layout där man kan ordna/sätta/ designa med olika element i antingen horisontellt eller vertikal läge.
 
@@ -61,7 +60,6 @@ else {
 }
 ```
 
-
  Sedan lades en ImageView in på en hund som placerades på sidan.
 
 ```
@@ -75,7 +73,7 @@ else {
     app:srcCompat="@drawable/assignment3" />
  ```
 
-TextView var en enkel text ruta där det stod ”Skriv här” för att göra det lättare.
+ TextView var en enkel text ruta där det stod ”Skriv här” för att göra det lättare.
 
 ```
 <TextView
@@ -86,9 +84,8 @@ TextView var en enkel text ruta där det stod ”Skriv här” för att göra de
 ```
 
 
-När det kommer till styling används olika tekniker. Hela filen activity_main.XML ligger allt innanför en <LinearLayout> tagg, men eftersom man kan ha LinearLayout innanför en till LinearLayout kan man skapa ”LinearLayout barn”. På så sätt kan man syle flera element samtidigt, som exempelvis vart den sak placeras utifrån kanterna osv.  I deras egna styling i element (”ImageView) fokuserar man mer på typsnitt, storlek på text och färger.
+ När det kommer till styling används olika tekniker. Hela filen activity_main.XML ligger allt innanför en <LinearLayout> tagg, men eftersom man kan ha LinearLayout innanför en till LinearLayout kan man skapa ”LinearLayout barn”. På så sätt kan man syle flera element samtidigt, som exempelvis vart den sak placeras utifrån kanterna osv.  I deras egna styling i element (”ImageView) fokuserar man mer på typsnitt, storlek på text och färger.
 I detta fall ligger TextView och fyra stycken EditView innanför samma LinearLayout för att på ett enklare sätt style dem så de blir på samma sätt.
-
 
 Bilder:
 ![] (info.png)
